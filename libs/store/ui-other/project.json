@@ -25,7 +25,7 @@
       "executor": "@nrwl/storybook:storybook",
       "options": {
         "uiFramework": "@storybook/angular",
-        "port": 4400,
+        "port": 4401,
         "config": {
           "configFolder": "libs/store/ui-other/.storybook"
         }

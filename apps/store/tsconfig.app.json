@@ -9,5 +9,10 @@
     "src/**/*.d.ts",
     "../../libs/store/feature-game-detail/src/index.ts"
   ],
-  "exclude": ["**/*.test.ts", "**/*.spec.ts"]
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/*.stories.ts",
+    "**/*.stories.js"
+  ]
 }
