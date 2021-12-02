@@ -22,3 +22,11 @@ Primary.args = {
   btntext: 'Click me',
   disabled: false,
 };
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  bgcolor: '#888888',
+  btntext: 'Click me',
+  disabled: true,
+};
+
