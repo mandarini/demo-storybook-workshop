@@ -4,6 +4,7 @@
     "store": "apps/store",
     "store-e2e": "apps/store-e2e",
     "store-ui-other": "libs/store/ui-other",
-    "store-ui-shared": "libs/store/ui-shared"
+    "store-ui-shared": "libs/store/ui-shared",
+    "store-util-formatters": "libs/store/util-formatters"
   }
 }
