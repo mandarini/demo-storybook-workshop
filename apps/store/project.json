@@ -123,5 +123,5 @@
       }
     }
   },
-  "tags": []
+  "tags": ["scope:store", "type:app", "jeff"]
 }
