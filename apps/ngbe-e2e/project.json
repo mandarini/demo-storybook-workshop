@@ -1,0 +1,28 @@
+{
+  "root": "apps/ngbe-e2e",
+  "sourceRoot": "apps/ngbe-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/ngbe-e2e/cypress.json",
+        "devServerTarget": "ngbe:storybook"
+      },
+      "configurations": {
+        "ci": {
+          "devServerTarget": "ngbe:storybook:ci"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/ngbe-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["ngbe"]
+}

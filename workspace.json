@@ -3,6 +3,7 @@
   "projects": {
     "api": "apps/api",
     "ngbe": "libs/ngbe",
+    "ngbe-e2e": "apps/ngbe-e2e",
     "store": "apps/store",
     "store-e2e": "apps/store-e2e",
     "store-feature-game-detail": "libs/store/feature-game-detail",
