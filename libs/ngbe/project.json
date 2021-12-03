@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/ngbe",
+  "sourceRoot": "libs/ngbe/src",
+  "prefix": "bg-hoard",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ngbe"],
+      "options": {
+        "jestConfig": "libs/ngbe/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/ngbe/src/**/*.ts", "libs/ngbe/src/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}
